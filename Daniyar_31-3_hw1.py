@@ -1,0 +1,11 @@
+Monday = int(input("Введите ваш расход за понедельник = "))
+Tuesday = int(input("Введите ваш расход за вторник = "))
+Wednesday = int(input("Введите ваш расход за среду = "))
+Thursday = int(input("Введите ваш расход за четверг = "))
+Friday = int(input("Введите ваш расход за пятницу = "))
+Saturday = int(input("Введите ваш расход за субботу = "))
+Sunday = int(input("Введите ваш расход за воскресенье = "))
+Amount_of_expenses = Monday + Tuesday + Wednesday + Thursday + Friday + Saturday + Sunday
+print("Сумма расходов за неделю = ", Amount_of_expenses)
+Average_consumption_per_day = (Amount_of_expenses / 7)
+print("Средний расход в день = ", round(Average_consumption_per_day, 1))
