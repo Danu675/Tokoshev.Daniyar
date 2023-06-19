@@ -1,6 +1,6 @@
 git init
 pip install python-decouple
-pip freeze > requirements.txtgi
+pip freeze > requirements.txtgigi
 from game_logic import play_game
 
 if __name__ == "__main__":
