@@ -23,3 +23,5 @@ main.py
 settings.ini
 win_loss_logic.py
 requirements.txt
+.idea
+__pycache__
